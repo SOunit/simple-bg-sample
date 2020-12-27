@@ -1,0 +1,22 @@
+.bg-sample-box {
+  /* この設定をするだけで、とりあえず画像は設定できます */
+  /* スペルに間違いはないですか？ */
+  /* urlに指定するパスは合ってますか？ */
+  background-image: url(./img/janeth-emiret-fboraxt0TFU-unsplash.jpg);
+
+  /* バックグラウンドをきれいに見せるための設定です */
+  background-position: center;
+  background-size: cover;
+
+  /* ボックスをキレイに見せるための設定です。 */
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid blue;
+}
+
+.bg-sample-box h2,
+.bg-sample-box p {
+  color: white;
+}
